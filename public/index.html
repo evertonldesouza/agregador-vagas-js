@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregador de Vagas Dev (JS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agregador de Vagas Dev</h1>
+        <p>Seu painel único para vagas de tecnologia.</p>
+    </header>
+
+    <main>
+        <div class="filtros">
+            <input type="text" id="filtro-tech" placeholder="Filtrar por tecnologia (ex: C#)">
+            <button id="btn-buscar">Buscar</button>
+        </div>
+
+        <div id="vagas-container" class="vagas-container">
+            <p id="loading-message">Carregando vagas...</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
